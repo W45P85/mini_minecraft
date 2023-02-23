@@ -5,10 +5,12 @@ from ursina import *
 from ursina.prefabs.first_person_controller import FirstPersonController
 
 app = Ursina()
+# steuerung
 player = FirstPersonController()
+# himmel
 Sky()
 
-#speichert blöcke in einer liste
+# speichert blöcke in einer liste
 boxes = []
 
 # zufallsfarben für blöcke
